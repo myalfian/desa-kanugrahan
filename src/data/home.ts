@@ -54,10 +54,10 @@ export interface Metric {
 }
 
 export const METRICS: Metric[] = [
-  { id: 'penduduk', value: 4826, label: 'Total Penduduk', note: '1.512 Kepala Keluarga' },
-  { id: 'lahan', value: 312, suffix: ' ha', label: 'Lahan Produktif', note: 'Sawah, tegal & tambak' },
+  { id: 'penduduk', value: 46, label: 'Total Penduduk', note: '12 Kepala Keluarga' },
+  { id: 'lahan', value: 3, suffix: ' ha', label: 'Lahan Produktif', note: 'Sawah, tegal & tambak' },
   { id: 'dusun', value: 3, label: 'Dusun Aktif', note: 'Kanugrahan · Pagendingan · Pasar Sore' },
-  { id: 'diaspora', value: 687, label: 'Diaspora Terdaftar', note: 'Di 14 provinsi & 5 negara' },
+  { id: 'diaspora', value: 67, label: 'Diaspora Terdaftar', note: 'Di 14 provinsi & 5 negara' },
 ]
 
 export interface Commodity {
@@ -95,7 +95,7 @@ export const PILLARS: Pillar[] = [
     href: '/program/tani',
     accent: 'emerald',
     highlights: ['Bursa harga gabah, jagung & cabai', 'Kalender masa tanam', 'Etalase hasil bumi'],
-    stat: { value: '18,4 ton', label: 'panen/ha per tahun' },
+    stat: { value: '1 ton', label: 'panen/ha per tahun' },
   },
   {
     id: 'diaspora',
@@ -106,7 +106,7 @@ export const PILLARS: Pillar[] = [
     href: '/program/diaspora',
     accent: 'royal',
     highlights: ['Pendataan perantau', 'Village crowdfunding', 'Forum rembug desa'],
-    stat: { value: 'Rp 412 jt', label: 'dana urunan terhimpun' },
+    stat: { value: 'Rp 4 jt', label: 'dana urunan terhimpun' },
   },
   {
     id: 'karang-taruna',
@@ -117,7 +117,7 @@ export const PILLARS: Pillar[] = [
     href: '/program/karang-taruna',
     accent: 'amber',
     highlights: ['Liga antar-dusun', 'Pameran UMKM muda', 'Ruang ekspresi kreatif'],
-    stat: { value: '46 UMKM', label: 'binaan pemuda' },
+    stat: { value: '4 UMKM', label: 'binaan pemuda' },
   },
 ]
 
@@ -126,28 +126,28 @@ export const APBDES = {
   tahun: 2026,
   updatedAt: '2026-10-01',
   pendapatan: {
-    total: 2_486_500_000,
-    realisasi: 1_964_300_000,
+    total: 20,
+    realisasi: 10,
     rincian: [
-      { label: 'Dana Desa (DD)', value: 1_102_000_000 },
-      { label: 'Alokasi Dana Desa (ADD)', value: 846_500_000 },
-      { label: 'Bagi Hasil Pajak & Retribusi', value: 188_000_000 },
-      { label: 'Pendapatan Asli Desa (PADes)', value: 350_000_000 },
+      { label: 'Dana Desa (DD)', value: 10 },
+      { label: 'Alokasi Dana Desa (ADD)', value: 80 },
+      { label: 'Bagi Hasil Pajak & Retribusi', value: 10 },
+      { label: 'Pendapatan Asli Desa (PADes)', value: 30 },
     ],
   },
   belanja: {
     total: 2_612_000_000,
     realisasi: 1_801_200_000,
     rincian: [
-      { label: 'Penyelenggaraan Pemerintahan', value: 742_000_000, color: '#1d37b0' },
-      { label: 'Pembangunan Desa', value: 1_096_000_000, color: '#047857' },
-      { label: 'Pembinaan Kemasyarakatan', value: 284_000_000, color: '#d97706' },
-      { label: 'Pemberdayaan Masyarakat', value: 398_000_000, color: '#0284c7' },
-      { label: 'Penanggulangan Bencana & Darurat', value: 92_000_000, color: '#e11d48' },
+      { label: 'Penyelenggaraan Pemerintahan', value: 70, color: '#1d37b0' },
+      { label: 'Pembangunan Desa', value: 10, color: '#047857' },
+      { label: 'Pembinaan Kemasyarakatan', value: 20, color: '#d97706' },
+      { label: 'Pemberdayaan Masyarakat', value: 30, color: '#0284c7' },
+      { label: 'Penanggulangan Bencana & Darurat', value: 90, color: '#e11d48' },
     ],
   },
   pembiayaan: {
-    penerimaan: 125_500_000, // SiLPA tahun lalu
+    penerimaan: 10, // SiLPA tahun lalu
     pengeluaran: 0,
   },
 }
@@ -161,7 +161,7 @@ export interface NewsItem {
 }
 
 export const LATEST_NEWS: NewsItem[] = [
-  { id: 'n1', title: 'Panen raya Dusun Pagendingan tembus 7,2 ton per hektare', category: 'Tani', date: '2026-10-08', href: '/kabar/berita/panen-raya-pagendingan' },
-  { id: 'n2', title: 'Ikatan Perantau Kanugrahan galang dana renovasi TPQ Pasar Sore', category: 'Diaspora', date: '2026-10-05', href: '/kabar/berita/urun-dana-tpq' },
-  { id: 'n3', title: 'Musrenbangdes 2027: warga usulkan 34 prioritas pembangunan', category: 'Kegiatan Pemdes', date: '2026-10-02', href: '/kabar/berita/musrenbangdes-2027' },
+  { id: 'n1', title: 'Panen raya Dusun Pagendingan tembus 2 ton per hektare', category: 'Tani', date: '2026-10-08', href: '/kabar/berita/panen-raya-pagendingan' },
+  { id: 'n2', title: 'Ikatan Perantau Kanugrahan galang dana renovasi TPQ', category: 'Diaspora', date: '2026-10-05', href: '/kabar/berita/urun-dana-tpq' },
+  { id: 'n3', title: 'Musrenbangdes 2027: warga usulkan 4 prioritas pembangunan', category: 'Kegiatan Pemdes', date: '2026-10-02', href: '/kabar/berita/musrenbangdes-2027' },
 ]
