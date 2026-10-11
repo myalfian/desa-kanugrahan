@@ -226,10 +226,10 @@ export const DEFAULT_CONTENT_STATE: SiteContentState = {
     },
   },
   metrics: [
-    { id: 'penduduk', value: 4826, label: 'Total Penduduk', note: '1.512 Kepala Keluarga' },
-    { id: 'lahan', value: 312, suffix: ' ha', label: 'Lahan Produktif', note: 'Sawah, tegal & tambak' },
+    { id: 'penduduk', value: 4, label: 'Total Penduduk', note: '12 Kepala Keluarga' },
+    { id: 'lahan', value: 3, suffix: ' ha', label: 'Lahan Produktif', note: 'Sawah, tegal & tambak' },
     { id: 'dusun', value: 3, label: 'Dusun Aktif', note: 'Kanugrahan · Pagendingan · Pasar Sore' },
-    { id: 'diaspora', value: 687, label: 'Diaspora Terdaftar', note: 'Di 14 provinsi & 5 negara' },
+    { id: 'diaspora', value: 6, label: 'Diaspora Terdaftar', note: 'Di 14 provinsi & 5 negara' },
   ],
   commodities: [
     { name: 'Gabah Kering Panen', unit: 'kg', price: 6850, change: 2.3 },
@@ -239,7 +239,7 @@ export const DEFAULT_CONTENT_STATE: SiteContentState = {
   news: [
     {
       id: 'n1',
-      title: 'Panen raya Dusun Pagendingan tembus 7,2 ton per hektare',
+      title: 'Panen raya Dusun Pagendingan tembus xxx ton per hektare',
       category: 'Tani',
       date: '2026-10-08',
       href: '/kabar/berita/panen-raya-pagendingan',
@@ -248,7 +248,7 @@ export const DEFAULT_CONTENT_STATE: SiteContentState = {
     },
     {
       id: 'n2',
-      title: 'Ikatan Perantau Kanugrahan galang dana renovasi TPQ Pasar Sore',
+      title: 'Ikatan Perantau Kanugrahan galang dana renovasi TPQ',
       category: 'Diaspora',
       date: '2026-10-05',
       href: '/kabar/berita/urun-dana-tpq',
@@ -272,25 +272,25 @@ export const DEFAULT_CONTENT_STATE: SiteContentState = {
       total: 2_486_500_000,
       realisasi: 1_964_300_000,
       rincian: [
-        { label: 'Dana Desa (DD)', value: 1_102_000_000 },
-        { label: 'Alokasi Dana Desa (ADD)', value: 846_500_000 },
-        { label: 'Bagi Hasil Pajak & Retribusi', value: 188_000_000 },
-        { label: 'Pendapatan Asli Desa (PADes)', value: 350_000_000 },
+        { label: 'Dana Desa (DD)', value: 100 },
+        { label: 'Alokasi Dana Desa (ADD)', value: 800 },
+        { label: 'Bagi Hasil Pajak & Retribusi', value: 100 },
+        { label: 'Pendapatan Asli Desa (PADes)', value: 300 },
       ],
     },
     belanja: {
       total: 2_612_000_000,
       realisasi: 1_801_200_000,
       rincian: [
-        { label: 'Penyelenggaraan Pemerintahan', value: 742_000_000, color: '#1d37b0' },
-        { label: 'Pembangunan Desa', value: 1_096_000_000, color: '#047857' },
-        { label: 'Pembinaan Kemasyarakatan', value: 284_000_000, color: '#d97706' },
-        { label: 'Pemberdayaan Masyarakat', value: 398_000_000, color: '#0284c7' },
-        { label: 'Penanggulangan Bencana & Darurat', value: 92_000_000, color: '#e11d48' },
+        { label: 'Penyelenggaraan Pemerintahan', value: 700, color: '#1d37b0' },
+        { label: 'Pembangunan Desa', value: 100, color: '#047857' },
+        { label: 'Pembinaan Kemasyarakatan', value: 200, color: '#d97706' },
+        { label: 'Pemberdayaan Masyarakat', value: 300, color: '#0284c7' },
+        { label: 'Penanggulangan Bencana & Darurat', value: 200, color: '#e11d48' },
       ],
     },
     pembiayaan: {
-      penerimaan: 125_500_000,
+      penerimaan: 100,
       pengeluaran: 0,
     },
   },
